@@ -45,6 +45,11 @@ def process_image(image_path):
     nutrition_data = extract_nutrition(raw_text)
     return nutrition_data
 
+@app.get("/greet")
+async def greet():
+    return {"response status": "lupet tangina"}
+
+
 @app.post("/upload/")
 async def upload_image(file: UploadFile = File(...)):
     # Save temporary file
