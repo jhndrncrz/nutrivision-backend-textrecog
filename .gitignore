@@ -19,3 +19,4 @@ env/
 Thumbs.db
 
 # Ignore image dataset and test images
+.photos/
