@@ -2,6 +2,7 @@ import os
 import cv2 as cv
 import numpy as np
 import pytesseract
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 import json
 import re
 from spellchecker import SpellChecker
