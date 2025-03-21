@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
     ffmpeg \
     libsm6 \
     libxext6 \
+    python3-opencv \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
